@@ -50,13 +50,14 @@ h2{
 	border-color:   rgba(140, 201, 49, 0.826);
 	border-radius: 5px;
 	padding: 10px 15px;
-	cursor: pointer
+	cursor: pointer;
+    font-weight: 600;
     
 }
 .header-nav li a{
     text-decoration: none;
     color: #ffffff;
-    font-weight: 600;
+    
 }
 .header-nav li .current-tab{
     background-color: rgb(212, 140, 6);
@@ -94,7 +95,7 @@ h2{
     color: orange;
     
 }
-#second-link{
+.container .second-link{
     color:rgb(162, 212, 87);
     text-decoration: underline;
 }

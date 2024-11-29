@@ -54,13 +54,14 @@ h2{
 	border-color:   rgba(140, 201, 49, 0.826);
 	border-radius: 5px;
 	padding: 10px 15px;
-	cursor: pointer
+	cursor: pointer;
+    font-weight: 600;
     
 }
 .header-nav li a{
     text-decoration: none;
     color: #ffffff;
-    font-weight: 600;
+    
 }
 .header-nav li .current-tab{
     background-color: rgb(212, 140, 6);
@@ -72,7 +73,7 @@ h2{
     border-color:  rgb(212, 140, 6);
 }
 
-.content{
+.contents{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
@@ -81,44 +82,14 @@ h2{
     width: 890px;
     gap: 2rem;
 }
-
-.content .contact p {
-    font-size: 13px;
-    font-weight: 400;
+.contents .description{
+    font-size: 15px;
+    line-height: 25px;
+    width: 630px;
 }
-
-.contact-form{
-    font-size: 13px;
-    padding-bottom: 15px;
-}
-.contact-form ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   
-}
-.contact-form ul li{
-    padding-top: 10px;
-}
-.contact-form ul li label{
-    display: block;
-     padding: 10px 0;
-}
-.contact-form ul li .input-form{
-    display: block;
-    width: 480px;
-    border: 1px solid #c0c0c0;
-    margin: 2px 0;
-    padding: 5px 2px;
-    height: 16px;
-}
-.contact-form ul li textarea{
-    border: 1px solid #c0c0c0;
-}
-.contact-form ul li button{
-    padding: 5px 15px;
-    margin-bottom: 15px;
-    
+.description p{
+    font-weight: 200;
+    color: #000000a0;
 }
 
 .Side-bar{
@@ -140,7 +111,6 @@ h2{
     color: #000000a0;
 
 }
-
 
 .third-block{
     background-image: url(/src/images/header_bg.jpg);
@@ -197,8 +167,7 @@ footer ul #current-tab{
     text-decoration: underline;
     color:rgb(187, 255, 85);
 }
-
 footer ul li a{
-    color: rgb(187, 255, 85) ;
+    color: rgb(187, 255, 85);
     text-decoration: none;
 }
